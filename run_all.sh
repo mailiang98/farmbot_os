@@ -14,7 +14,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 echo "######### farmbot_celery_script"
 cd ../farmbot_celery_script
@@ -23,7 +22,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 echo "######### farmbot_firmware"
 cd ../farmbot_firmware
@@ -32,7 +30,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 echo "######### farmbot_core"
 cd ../farmbot_core
@@ -41,7 +38,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 echo "######### farmbot_ext"
 cd ../farmbot_ext
@@ -50,7 +46,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 echo "######### farmbot_os"
 cd ../farmbot_os
@@ -59,7 +54,6 @@ mix coveralls.html
 rm -f *.coverdata
 MIX_ENV=test mix compile
 mix format
-mix test
 
 cd ..
 cd farmbot_os

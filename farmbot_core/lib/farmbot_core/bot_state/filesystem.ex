@@ -7,7 +7,7 @@ defmodule FarmbotCore.BotState.FileSystem do
   alias FarmbotCore.BotState
 
   @root_dir Application.get_env(:farmbot_core, __MODULE__)[:root_dir]
-  @sleep_time 8_000
+  @sleep_time 200
 
   @type path_and_data :: {Path.t(), binary()}
   @type serialized :: [path_and_data | Path.t()]
